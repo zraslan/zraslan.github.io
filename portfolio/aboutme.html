@@ -1,30 +1,51 @@
 <!DOCTYPE html>
+
+<!-- This document can be refered to for simple html conventions. In addition, this website (http://www.w3schools.com/html/html5_syntax.asp) is a good reference for basic fundamentals and best practice type things. -->
+
+<!--Check out this article for semantic class names: https://css-tricks.com/semantic-class-names/-->
+
 	<html lang="en"> 
 <!-- Lang en is to tell the reader that the text is in english -->
 		<head>
+			<link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
 			<title>About Zachary Raslan</title>
 			<meta charset="utf-8">
 <!-- meta character set utf-8 is used for some reason, but will always include in the source -->
+			<link rel="stylesheet" href="css/style.css" media="all"/>
 		</head>
-
-			<body> 
-
-				<h1 style="text-align: center"><a href="https://www.facebook.com/">Zac's Page</a></h1>
-
-				<p>
-					insert paragraph text here :D
-				</p>
-
-				<ul>
+				<div id="header">
+					<h1 class="header-class" style="text-align: center"><a href="https://www.facebook.com/">Zac's Page</a></h1>
+				</div>
+			<body class="aboutme-body"> 
+				<div class="list">
 <!-- ul refers to unorganized list, as oposed to ol (organized list) or just the simple li (list item) -->
-					<li>I study History and GIS, specializing in Historical GIS.</li>
-					<li>I have a passion for creating, collecting, digitizing, georeferencing, and making historical geospatial data available for other to use.</li>
-					<li>I love the wild, and I hope one day to work for the nature conservancy.</li>
-					<li>I secretly want to learn how to be a traditional cartographer.</li>
-					<li>I am terribly afraid of flying.</li>
-
-				<center><img src="http://www.clker.com/cliparts/5/H/e/5/F/j/sun-rise-hi.png"></center>
-
+						<p>I have a passion for creating, collecting, digitizing, georeferencing, and making historical geospatial data available for other to use.</p>
+						<p>I love the wild, and I hope one day to work for the nature conservancy.</p>
+						<p>I secretly want to learn how to be a traditional cartographer.</p>
+						<p>I study History and GIS, specializing in Historical GIS.</p>
+						<p>I am terribly afraid of flying.</p>
+					<h2 align="center">Here is a video of <span><a href="https://en.wikipedia.org/wiki/Jon_Stewart">Jon Stewart</a></span> on Crossfire!</h2>
+						<iframe width="420" height="200" src="https://www.youtube.com/embed/aFQFB5YpDZE" frameborder="0" allowfullscreen></iframe>
+				</div>
+				<div class="paragraph">
+					<p>When I heard the learn'd astronomer</p>
+					<p>When the proofs, the figures, were ranged in columns before me</p>
+					<p>When I was shown the charts and the diagrams, to add, divide, and measure them</p>
+					<p>When I sitting heard the astronomer where he lectured with much applause in the lecture-room</p>
+					<p>How soon unaccountable I became tired and sick</p>
+					<p>Till rising and gliding out I wander'd off by myself</p>
+					<p>In the mystical moist night-air, and from time to time</p>
+					<p>Look'd up in perfect silence at the stars.</p>
+					<p>~ Walt Whitman</p>
+					<a href="https://en.wikipedia.org/wiki/Walt_Whitman">
+						<img class="image" src="http://84d1f3.medialib.glogster.com/media/b7/b71e22b9cc9ae9241d9e0561b9b72d90623068c5a3e6b99a170cc2d2fe4392c2/walt-whitman1.jpg" height="90px" width="70">
+					</a>
+				</div>
+				<div id="footer">
+					<ul>
+						<li>Website edited and updated by Zachary Raslan: Sept. 17, 2015</li>
+						<li>Current Student at the University of Connecticut</li>
+				</div>
 			</body>
 
 </html>

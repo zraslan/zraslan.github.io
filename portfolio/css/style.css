@@ -1,4 +1,91 @@
-.aboutme-body {
-	background-color: #800080;
+/*check out this website for a look at Pseudo Class selectors: https://css-tricks.com/pseudo-class-selectors/-->;
+*/
+
+html {
+	background-image: url(http://7-themes.com/data_images/out/46/6926234-waterfall-in-mountains.jpg);
+	background-size: 100%;
+	position: relative;
 }
 
+#header {
+	position: relative;
+	z-index: 1;
+	width: 13%;
+	height: 40px;
+	background-color: #cccccc;
+	margin: auto;
+	margin-bottom: 10px;
+	border-radius: 10px;
+	font-family: 'Lobster', cursive;
+	text-decoration: none;
+}
+
+.header-class:hover {
+	position: relative;
+	text-shadow: white .5em .5em .6em;
+	text-decoration: none;
+	opacity: .9;
+}
+
+.list {
+	position: relative;
+	float: right;
+	display:inline-block;
+	background: #cccccc;
+	height: 500px;
+	width: 70%;
+	margin: 2px;
+	text-align: center;
+	font-family: 'Lobster', cursive;
+	font-size: ;
+	color: ;
+	border-radius: 20px;
+	border: 2.5px solid #323232;
+	opacity: .6;
+	font-weight: medium;
+}
+
+.paragraph {
+	position: relative;
+	float: left;
+	display: inline-block;
+	background-color: #cccccc;
+	height: 500px;
+	width: 25%;
+	margin: 2px;
+	text-align: center;
+	font-family: 'Lobster', cursive;
+	font-size: ;
+	color: ;
+	padding-left: 10px;
+	border-radius: 20px;
+	border: 2.5px solid #323232;
+	opacity: .6;
+	font-weight: bold;
+}
+
+img {
+	position: relative;
+}
+
+.image:hover {
+	border-radius: 75px;
+	border: 5px solid #323232;
+	text-shadow: white .5em .5em .6em;
+}
+
+#footer {
+	position: relative;
+	height: 60px;
+	width: auto;
+	background-color: #4c4c4c;
+	clear: both;
+	border-radius: 50px;
+	border: 3.5px solid #7f7f7f;
+	margin: auto;
+	margin-top: 40px;
+	font-weight: bold;
+}
+
+/*this is how leave a commment in CSS*/  
+/*class names, as seen above in green, and certain types of naming conventions are important to know about when thinking about how to code in CSS. Refer to this website to get an understanding of BEM-like naming*/
