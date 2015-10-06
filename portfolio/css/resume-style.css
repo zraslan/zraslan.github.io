@@ -1,0 +1,59 @@
+/*use #85A366 for background, #142900 for borders, #D6E0CC for text*/
+/*use for section titles: font-family: 'Merriweather', serif;*/
+
+html {
+	position: relative;
+}
+
+body{
+	background-color: #85A366;
+	font-family: 'Merriweather', serif; 
+}
+
+li{
+	padding-top: 7px;
+	padding-bottom: 7px;
+}
+
+ul{
+	list-style-type: none;
+}
+
+.container-resume{
+	margin: auto;
+	background-color: white;
+	width: 800px;
+	padding: 5% 5% 5% 5%;
+}
+
+.headline-main{
+	text-align: center;
+	font-weight: bolder;
+}
+
+.headline-sub{
+	display: block;
+	font-weight: bold;
+}
+
+a{
+	text-decoration: none;
+}
+
+a:hover{
+	font-weight: bold;
+}
+
+.headline-section{
+	text-align: center;
+	color: green;
+}
+
+.log-divider{
+	text-align: center;
+	font-weight: bolder;
+	font-size: 36px;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	letter-spacing: -2px;
+}
