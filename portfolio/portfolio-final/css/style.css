@@ -204,6 +204,10 @@ footer {
 		padding-right: 2%;
 	}
 
+	.navigation-link {
+		font-size: 30px;
+	}
+
 	h1 {
 		font-size: 25px;
 	}
