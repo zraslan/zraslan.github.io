@@ -214,7 +214,7 @@ footer {
 	.navigation-menu {
 		background-color: #001900;
 		padding: 4% 4% 4% 4%;
-		border: 8px solid #4dff4d;
+		border: 15px solid #4dff4d;
 	}
 	.navigation-item {
 		display: inline-block;
@@ -223,7 +223,7 @@ footer {
 	}
 
 	.navigation-link {
-		font-size: 50px;
+		font-size: 200px;
 	}
 
 	h1 {
