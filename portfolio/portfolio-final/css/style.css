@@ -213,8 +213,8 @@ footer {
 @media screen and (max-width: 320px) {
 	.navigation-menu {
 		background-color: #001900;
-		padding: 4% 4% 4% 4%;
-		border: 15px solid #4dff4d;
+		padding: 8% 4% 8% 4%;
+		border: 10px solid #4dff4d;
 	}
 	.navigation-item {
 		display: inline-block;
