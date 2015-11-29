@@ -1,10 +1,10 @@
 body {
 	background-color: #006600;
+	font-family: 'Merriweather', serif; 
 }
 
 .portfolio-navigation {
 	padding: 1% 1% 1% 1%;
-	border
 }
 
 .navigation-menu {
@@ -23,34 +23,130 @@ body {
 .navigation-link {
 	text-decoration: none;
 	color: white;
-	font-weight: bold;
 }
 
 .navigation-link:hover {
-	font-weight: bolder;
 	text-decoration: underline;
 }
 
-.navigation-link:focus {
-	text-decoration: red;
+.selected {
+	font-weight: 900;
+	font-size: 15px;
+	text-decoration: underline;
+	color: #33cc33;
+}
+
+.index-container {
+	margin: auto;
+	/*background-color: #99e699;
+	Can try to use this other color for content 
+	background, see what is better*/
+	background-color: #248f24;
+	width: 800px;
+	height: 175px;
+	padding: 5% 5% 5% 5%;
+	border-radius: 7px
 }
 
 .portfolio-container {
-
+	margin: auto;
+	background-color: #248f24;
+	width: 800px;
+	height: 370px;
+	padding: 5% 5% 5% 5%;
+	border-radius: 7px
 }
+
+h1 {
+	display: block;
+	text-align: center;
+	font-size: 75px;
+	letter-spacing: 15px;
+	padding-top: 15px;
+}
+
+h2 {
+	display: inline-block;
+	font-size: 20px;
+	font-weight:;
+	font-style: italic;
+	letter-spacing: 5px;
+}
+
+.log-divider{
+	text-align: center;
+	font-weight: bolder;
+	color:;
+	font-size: 40px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	letter-spacing: 15px;
+}
+
+footer {
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	background-color: #001900;
+	padding: 1% 1% 1% 1%;
+	margin-top: .33%;
+	margin-bottom: .33%;
+	color: white;
+	width: 900px;
+	text-align: center;
+	border-radius: 7px;
+	font-size: 12px;
+}
+
+
+
+
+
+
 
 /*this media query impacts screen 780px or larger*/
 @media screen and (max-width: 780px) {
 	.navigation-menu {
 		background-color: #001900;
 	}
+
 	.navigation-item {
-	display: inline-block;
-	padding-left: 7%;
-	padding-right: 7%;
+		display: inline-block;
+		padding-left: 7%;
+		padding-right: 7%;
+	}
+
+	h1 {
+		font-size: 75px;
+	}
+
+	.index-container {
+		margin: auto;
+	/*background-color: #99e699;
+	Can try to use this other color for content 
+	background, see what is better*/
+		background-color: #248f24;
+		width: 800px;
+		height: 220px;
+		padding: 5% 5% 5% 5%;
+		border-radius: 7px
+	}
+
+	.portfolio-container {
+		margin: auto;
+		background-color: #248f24;
+		width: 800px;
+		height: 400px;
+		padding: 5% 5% 5% 5%;
+		border-radius: 7px
+	}
+
+	footer {
+		width: 80%;
+		font-size: 9px;
+		margin-top: .5%;
 	}
 }
-
 
 /*this media query impacts screen 480 or larger*/
 @media screen and (max-width: 480px) {
@@ -60,13 +156,42 @@ body {
 		padding: 3% 3% 3% 3%;
 	}
 	.navigation-item {
-	display: inline-block;
-	padding-left: 5%;
-	padding-right: 5%;
+		display: inline-block;
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+
+	h1 {
+		font-size: 50px;
+	}
+
+	.index-container {
+		margin: auto;
+	/*background-color: #99e699;
+	Can try to use this other color for content 
+	background, see what is better*/
+		background-color: #248f24;
+		width: 800px;
+		height: 220px;
+		padding: 5% 5% 5% 5%;
+		border-radius: 7px
+	}
+
+	.portfolio-container {
+		margin: auto;
+		background-color: #248f24;
+		width: 800px;
+		height: 400px;
+		padding: 5% 5% 5% 5%;
+		border-radius: 7px
+	}
+
+	footer {
+		width: 80%;
+		font-size: 9px;
+		margin-top: .5%;
 	}
 }
-
-
 /*this media query impacts screen 320 or larger*/
 @media screen and (max-width: 320px) {
 	.navigation-menu {
@@ -74,8 +199,39 @@ body {
 		padding: 4% 4% 4% 4%;
 	}
 	.navigation-item {
-	display: inline-block;
-	padding-left: 2%;
-	padding-right: 2%;
+		display: inline-block;
+		padding-left: 2%;
+		padding-right: 2%;
+	}
+
+	h1 {
+		font-size: 25px;
+	}
+
+	.index-container {
+		margin: auto;
+	/*background-color: #99e699;
+	Can try to use this other color for content 
+	background, see what is better*/
+		background-color: #248f24;
+		width: 80%;
+		height: 220px;
+		padding: 5% 5% 5% 5%;
+		border-radius: 7px
+	}
+
+	.portfolio-container {
+		margin: auto;
+		background-color: #248f24;
+		width: 80%;
+		height: 380px;
+		padding: 5% 5% 5% 5%;
+		border-radius: 7px
+	}
+
+	footer {
+		width: 80%;
+		font-size: 9px;
+		margin-top: .5%;
 	}
 }
