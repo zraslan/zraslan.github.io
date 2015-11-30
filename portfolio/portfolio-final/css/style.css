@@ -7,6 +7,10 @@ body {
 	font-family: 'Merriweather', serif; 
 }
 
+strong {
+	font-weight: bold;
+}
+
 .portfolio-navigation {
 	padding: 1% 1% 1% 1%;
 }
@@ -16,7 +20,7 @@ body {
 	text-align: center;
 	padding: 2.5% 2.5% 2.5% 2.5%;
 	border-radius: 15px;
-	border: 3.5px solid #4dff4d;
+	border: 2px solid #4dff4d;
 }
 
 .navigation-item {
@@ -43,6 +47,7 @@ body {
 
 .index-container {
 	position: relative;
+	float: center;
 	margin: auto;
 	/*background-color: #99e699;
 	Can try to use this other color for content 
@@ -56,12 +61,24 @@ body {
 
 .portfolio-container {
 	position: relative;
+	float: center;
 	margin: auto;
 	background-color: #248f24;
 	width: 60%;
-	height: 370px;
+	height: 365px;
 	padding: 5% 5% 5% 5%;
-	border-radius: 7px
+	border-radius: 7px;
+}
+
+.portfolio-resume-container {
+	position: relative;
+	float: center;
+	margin: auto;
+	background-color: #248f24;
+	width: 60%;
+	height: 3000px;
+	padding: 5% 5% 5% 5%;
+	border-radius: 7px;
 }
 
 h1 {
@@ -73,11 +90,19 @@ h1 {
 }
 
 h2 {
-	display: inline-block;
-	font-size: 20px;
+	display: block;
+	font-size: 30px;
 	font-weight:;
 	font-style: italic;
 	letter-spacing: 5px;
+	padding-bottom: 5px;
+}
+
+h3 {
+	display: block;
+	padding-bottom: 4%;
+	font-size: 20px;
+
 }
 
 .log-divider{
@@ -104,6 +129,72 @@ footer {
 	border-radius: 7px;
 	font-size: 12px;
 }
+
+.index-content-left {
+	background: white;
+	float: left;
+	width: 50%;
+	height: 100%;
+}
+
+.index-content-right {
+	background-color: blue;
+	float: right;
+	width: 50%;
+	height: 100%;
+}
+
+.bio-img {
+	display: inline-block;
+	float: left;
+	width: 480px;
+	height: 360px;
+	padding-top: 3%;
+	padding-bottom: 3%;
+	border-radius: 400px;
+}
+
+.bio-content {
+	display: inline-block;
+	float: right;
+	width: 300px;
+	height: 350px;
+	text-align: left;
+	background-color: white;
+}
+
+.resume-headline {
+	display: block;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 2%;
+	padding-bottom: 1%;
+}
+
+.linkedin {
+	display: block;
+	margin: auto;
+	text-decoration: none;
+	color: black;
+	padding-top: 2%;
+	text-align: center;
+}
+
+.linkedin:hover {
+	font-weight: 900;
+}
+
+.resume-list {
+	padding-top: 1%;
+	padding-bottom: 2%;
+	text-indent: 5%;
+}
+
+
+
+
+
+
 
 
 
@@ -138,8 +229,8 @@ footer {
 	Can try to use this other color for content 
 	background, see what is better*/
 		background-color: #248f24;
-		width: 50%;
-		height: 220px;
+		width: 65%;
+		height: 600px;
 		padding: 5% 5% 5% 5%;
 		border-radius: 7px
 	}
@@ -147,8 +238,8 @@ footer {
 	.portfolio-container {
 		margin: auto;
 		background-color: #248f24;
-		width: 50%;
-		height: 400px;
+		width: 65%;
+		height: 600px;
 		padding: 5% 5% 5% 5%;
 		border-radius: 7px
 	}
@@ -188,8 +279,8 @@ footer {
 	Can try to use this other color for content 
 	background, see what is better*/
 		background-color: #248f24;
-		width: 50%;
-		height: 220px;
+		width: 65%;
+		height: 600px;
 		padding: 5% 5% 5% 5%;
 		border-radius: 7px
 	}
@@ -197,8 +288,8 @@ footer {
 	.portfolio-container {
 		margin: auto;
 		background-color: #248f24;
-		width: 50%;
-		height: 400px;
+		width: 65%;
+		height: 600px;
 		padding: 5% 5% 5% 5%;
 		border-radius: 7px
 	}
@@ -223,7 +314,7 @@ footer {
 	}
 
 	.navigation-link {
-		font-size: 80%;
+		font-size-size: 100px;
 	}
 
 	h1 {
@@ -236,8 +327,8 @@ footer {
 	Can try to use this other color for content 
 	background, see what is better*/
 		background-color: #248f24;
-		width: 50%;
-		height: 220px;
+		width: 65%;
+		height: 600px;
 		padding: 5% 5% 5% 5%;
 		border-radius: 7px
 	}
@@ -245,8 +336,8 @@ footer {
 	.portfolio-container {
 		margin: auto;
 		background-color: #248f24;
-		width: 50%;
-		height: 380px;
+		width: 65%;
+		height: 600px;
 		padding: 5% 5% 5% 5%;
 		border-radius: 7px
 	}
