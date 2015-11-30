@@ -12,6 +12,19 @@ strong {
 	font-weight: bold;
 }
 
+p {
+	padding-bottom: 2%;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	font-weight: 900;
+}
+
 .portfolio-navigation {
 	padding: 1% 1% 1% 1%;
 }
@@ -66,7 +79,7 @@ strong {
 	margin: auto;
 	background-color: #48d148;
 	width: 60%;
-	height: 1000px;
+	height: auto;
 	padding: 5% 5% 5% 5%;
 	border-radius: 7px;
 }
@@ -77,7 +90,7 @@ strong {
 	margin: auto;
 	background-color: #48d148;
 	width: 60%;
-	height: 3500px;
+	height: auto; /*3500px;*/
 	padding: 5% 5% 5% 5%;
 	border-radius: 7px;
 }
@@ -192,6 +205,24 @@ footer {
 	margin-left: 70px;
 	letter-spacing: 1.5px;
 }
+
+.project-link {
+	position: relative;
+	display: block;
+	text-align: center;
+	background-color:;
+	color: black;
+	font-size: 130%;
+	padding: 5% 5% 5% 5%;
+}
+
+.project-content {
+	position: relative;
+	display: block;
+	text-align: left;
+	background-color:;
+}
+
 
 
 
@@ -355,10 +386,10 @@ footer {
 	.bio-img {
 	position: relative;
 	display: block;
-	float: center;
+	/*float: center;*/
 	vertical-align: middle;
-	width: 70%;
-	height: 40%;
+	width: auto;
+	height: auto;
 	padding-top:1.5%;
 	padding-bottom: 3%;
 	border-radius: 200px;
@@ -367,10 +398,10 @@ footer {
 	.bio-content {
 	position: relative;
 	display: block;
-	float: center;
+	/*float: center;*/
 	vertical-align: middle;
 	width: 60%;
-	height: 100%;
+	height: auto;
 	text-align: left;
 	background-color: white;
 	}
