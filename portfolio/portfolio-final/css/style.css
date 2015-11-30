@@ -350,4 +350,23 @@ footer {
 		font-size: 9px;
 		margin-top: .5%;
 	}
+
+	.bio-img {
+	display: block;
+	float:;
+	width: 70%;
+	height: 40%;
+	padding-top:1.5%;
+	padding-bottom: 3%;
+	border-radius: 200px;
+	}
+
+	.bio-content {
+	display: block;
+	float:;
+	width: 60%;
+	height: 100%;
+	text-align: left;
+	background-color: white;
+	}
 }
