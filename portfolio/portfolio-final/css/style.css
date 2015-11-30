@@ -8,6 +8,7 @@ body {
 }
 
 strong {
+	margin-top: 20px;
 	font-weight: bold;
 }
 
@@ -18,7 +19,7 @@ strong {
 .navigation-menu {
 	background-color: #001900;
 	text-align: center;
-	padding: 2.5% 2.5% 2.5% 2.5%;
+	padding: 1.5% 2.5% 1.5% 2.5%;
 	border-radius: 15px;
 	border: 2px solid #4dff4d;
 }
@@ -63,7 +64,7 @@ strong {
 	position: relative;
 	float: center;
 	margin: auto;
-	background-color: #248f24;
+	background-color: #48d148;
 	width: 60%;
 	height: 365px;
 	padding: 5% 5% 5% 5%;
@@ -74,9 +75,9 @@ strong {
 	position: relative;
 	float: center;
 	margin: auto;
-	background-color: #248f24;
+	background-color: #48d148;
 	width: 60%;
-	height: 3000px;
+	height: 3400px;
 	padding: 5% 5% 5% 5%;
 	border-radius: 7px;
 }
@@ -121,13 +122,14 @@ footer {
 	display: block;
 	background-color: #001900;
 	padding: 1% 1% 1% 1%;
-	margin-top: .33%;
+	margin-top: 1%;
 	margin-bottom: .33%;
 	color: white;
-	width: 900px;
+	width: 97%;
 	text-align: center;
 	border-radius: 7px;
 	font-size: 12px;
+	border: 2px solid #4dff4d;
 }
 
 .index-content-left {
@@ -149,16 +151,16 @@ footer {
 	float: left;
 	width: 480px;
 	height: 360px;
-	padding-top: 3%;
+	padding-top:1.5%;
 	padding-bottom: 3%;
-	border-radius: 400px;
+	border-radius: 200px;
 }
 
 .bio-content {
 	display: inline-block;
 	float: right;
 	width: 300px;
-	height: 350px;
+	height: 360px;
 	text-align: left;
 	background-color: white;
 }
@@ -185,9 +187,10 @@ footer {
 }
 
 .resume-list {
-	padding-top: 1%;
+	padding-top: 2%;
 	padding-bottom: 2%;
-	text-indent: 5%;
+	margin-left: 70px;
+	letter-spacing: 1.5px;
 }
 
 
