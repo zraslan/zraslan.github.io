@@ -66,11 +66,12 @@ a:hover {
 	/*background-color: #99e699;
 	Can try to use this other color for content 
 	background, see what is better*/
-	background-color: #248f24;
+	background-color: #48d148;
 	width: 60%;
-	height: 175px;
+	height: auto;
 	padding: 5% 5% 5% 5%;
-	border-radius: 7px
+	border-radius: 7px;
+	line-height: 150%;
 }
 
 .portfolio-container {
@@ -82,17 +83,7 @@ a:hover {
 	height: auto;
 	padding: 5% 5% 5% 5%;
 	border-radius: 7px;
-}
-
-.portfolio-resume-container {
-	position: relative;
-	float: center;
-	margin: auto;
-	background-color: #48d148;
-	width: 60%;
-	height: auto; /*3500px;*/
-	padding: 5% 5% 5% 5%;
-	border-radius: 7px;
+	line-height: 150%;
 }
 
 h1 {
@@ -160,22 +151,30 @@ footer {
 }
 
 .bio-img {
-	display: inline-block;
+	/*display: inline-block;
 	float: left;
-	width: 480px;
-	height: 360px;
+	width: auto;
+	height: auto;
 	padding-top:1.5%;
 	padding-bottom: 3%;
+	border-radius: 200px;*/
+	position: relative;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	width: 60%;
+	height: auto;
 	border-radius: 200px;
+	vertical-align: center;
 }
 
 .bio-content {
-	display: inline-block;
+	/*display: inline-block;
 	float: right;
 	width: 300px;
 	height: 360px;
 	text-align: left;
-	background-color: white;
+	background-color: white;*/
 }
 
 .resume-headline {
