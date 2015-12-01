@@ -12,6 +12,10 @@ strong {
 	font-weight: bold;
 }
 
+hr {
+	margin-bottom: 3%;
+}
+
 p {
 	padding-bottom: 2%;
 }
@@ -107,6 +111,9 @@ h3 {
 	display: block;
 	padding-bottom: 4%;
 	font-size: 20px;
+	font-weight: bold;
+	padding-top: 10%;
+	padding-bottom: .5%;
 
 }
 
@@ -361,7 +368,7 @@ footer {
 	background, see what is better*/
 		background-color: #248f24;
 		width: 65%;
-		height: 600px;
+		height: auto;
 		padding: 5% 5% 5% 5%;
 		border-radius: 7px
 	}
