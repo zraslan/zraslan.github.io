@@ -21,7 +21,7 @@ p {
 }
 
 a {
-	text-decoration: none;
+	text-decoration: underline;
 	color: black;
 }
 
@@ -164,6 +164,7 @@ footer {
 	width: 50%;
 	height: 100%;
 	text-align: center;
+	padding-top: 5%;
 }
 
 .index-email {
