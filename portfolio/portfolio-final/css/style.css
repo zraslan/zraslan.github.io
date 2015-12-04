@@ -91,11 +91,13 @@ a:hover {
 }
 
 h1 {
+	position: relative;
 	display: block;
 	text-align: center;
-	font-size: 75px;
+	font-size: 400%;
 	letter-spacing: 15px;
-	padding-top: 15px;
+	padding-top: 8%;
+	padding-bottom: 8%;
 }
 
 h2 {
@@ -149,7 +151,8 @@ footer {
 	background-color: #006600;
 	margin: auto;
 	text-align: center;
-	width: 50%;
+	/*width: 50%;*/
+	width: auto;
 	height: 100%;
 	padding-top: 2%;
 	padding-bottom: 2%;
@@ -169,6 +172,7 @@ footer {
 
 .index-email {
 	color: white;
+	width: auto;
 }
 
 .bio-img {
@@ -255,9 +259,9 @@ footer {
 
 
 
+/*
 
 
-/*this media query impacts screen 780px or larger*/
 @media screen and (max-width: 780px) {
 	.navigation-menu {
 		background-color: #001900;
@@ -280,9 +284,6 @@ footer {
 
 	.index-container {
 		margin: auto;
-	/*background-color: #99e699;
-	Can try to use this other color for content 
-	background, see what is better*/
 		background-color: #248f24;
 		width: 65%;
 		height: 600px;
@@ -306,7 +307,7 @@ footer {
 	}
 }
 
-/*this media query impacts screen 480 or larger*/
+
 @media screen and (max-width: 480px) {
 	.navigation-menu {
 		background-color: #001900;
@@ -330,9 +331,6 @@ footer {
 
 	.index-container {
 		margin: auto;
-	/*background-color: #99e699;
-	Can try to use this other color for content 
-	background, see what is better*/
 		background-color: #248f24;
 		width: 65%;
 		height: 600px;
@@ -355,7 +353,7 @@ footer {
 		margin-top: .5%;
 	}
 }
-/*this media query impacts screen 320 or larger*/
+
 @media screen and (max-width: 320px) {
 	.navigation-menu {
 		background-color: #001900;
@@ -378,9 +376,6 @@ footer {
 
 	.index-container {
 		margin: auto;
-	/*background-color: #99e699;
-	Can try to use this other color for content 
-	background, see what is better*/
 		background-color: #248f24;
 		width: 65%;
 		height: auto;
@@ -407,7 +402,6 @@ footer {
 	.bio-img {
 	position: relative;
 	display: block;
-	/*float: center;*/
 	vertical-align: middle;
 	width: auto;
 	height: auto;
@@ -419,7 +413,6 @@ footer {
 	.bio-content {
 	position: relative;
 	display: block;
-	/*float: center;*/
 	vertical-align: middle;
 	width: 60%;
 	height: auto;
@@ -427,3 +420,5 @@ footer {
 	background-color: white;
 	}
 }
+
+*/
