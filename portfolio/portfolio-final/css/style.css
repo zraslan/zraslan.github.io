@@ -23,6 +23,7 @@ p {
 a {
 	text-decoration: underline;
 	color: black;
+	
 }
 
 a:hover {
@@ -192,6 +193,10 @@ footer {
 	border-radius: 200px;
 	vertical-align: center;
 	padding-top: 5%;
+}
+
+.bio-link {
+	padding-left: 5%;
 }
 
 .bio-content {
