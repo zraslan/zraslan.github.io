@@ -1,9 +1,11 @@
+/*color code has been selectivly commented out for professional purposes*/
+
 html {
 	position: relative;
 }
 
 body {
-	background-color: #006600;
+/*	background-color: #006600; */
 	font-family: 'Merriweather', serif; 
 }
 
@@ -71,7 +73,7 @@ a:hover {
 	/*background-color: #99e699;
 	Can try to use this other color for content 
 	background, see what is better*/
-	background-color: #48d148;
+	/*background-color: #48d148;*/
 	width: 60%;
 	height: auto;
 	padding: 5% 5% 5% 5%;
@@ -83,7 +85,7 @@ a:hover {
 	position: relative;
 	float: center;
 	margin: auto;
-	background-color: #48d148;
+	/*background-color: #48d148;*/
 	width: 60%;
 	height: auto;
 	padding: 5% 5% 5% 5%;
