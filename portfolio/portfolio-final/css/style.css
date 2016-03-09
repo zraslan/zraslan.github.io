@@ -177,9 +177,9 @@ footer {
 	position: relative;
 	display: block;
 	margin: auto;
-	width: 40%;
+	width: auto;
 	height: auto;
-	vertical-align: center;
+	vertical-align:;
 }
 
 .index-email {
