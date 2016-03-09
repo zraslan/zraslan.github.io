@@ -231,6 +231,14 @@ footer {
 	font-weight: 900;
 }
 
+.resume-short {
+	display: block;
+	margin: auto;
+	text-decoration: underline;
+	color: #7F7F7F;
+	padding-top:;
+}
+
 .resume-list {
 	padding-top: 2%;
 	padding-bottom: 2%;
