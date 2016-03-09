@@ -218,7 +218,7 @@ footer {
 	padding-bottom: 1%;
 }
 
-.linkedin {
+.resume-link {
 	display: block;
 	margin: auto;
 	text-decoration: none;
@@ -227,7 +227,7 @@ footer {
 	text-align: center;
 }
 
-.linkedin:hover {
+.resume-link:hover {
 	font-weight: 900;
 }
 
