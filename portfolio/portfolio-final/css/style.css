@@ -163,7 +163,7 @@ footer {
 	border-radius: 20%;
 }
 
-.index-content-bottom {
+/*.index-content-bottom {
 	display: block;
 	position: relative;
 	margin: auto;
@@ -171,6 +171,15 @@ footer {
 	height: 100%;
 	text-align: center;
 	padding-top: 5%;
+} */
+
+.index-img {
+	position: relative;
+	display: block;
+	margin: auto;
+	width: 40%;
+	height: auto;
+	vertical-align: center;
 }
 
 .index-email {
@@ -190,9 +199,9 @@ footer {
 	display: block;
 	margin-right: auto;
 	margin-left: auto;
-	width: 60%;
+	width: 25%;
 	height: auto;
-	border-radius: 200px;
+	border-radius:100%;
 	vertical-align: center;
 	padding-top: 5%;
 }
