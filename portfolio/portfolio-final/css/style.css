@@ -175,11 +175,12 @@ footer {
 
 .index-img {
 	position: relative;
-	display: block;
+	display: block; 
 	margin: auto;
 	width: auto;
 	height: auto;
-	vertical-align:;
+	padding-top: 5%;
+	padding-left: -50%;
 }
 
 .index-email {
