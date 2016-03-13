@@ -229,11 +229,6 @@ footer {
 	padding-top: 5%;
 }
 
-.bio-img2 {
-	display: block;
-
-}
-
 .bio-link {
 	padding-left: 5%;
 }
@@ -304,11 +299,12 @@ footer {
 .project-link {
 	position: relative;
 	display: inline-block;
-	text-align: left;
+	text-align: center;
 	background-color:;
 	color: black;
-	font-size: 130%;
-	padding: 1% 3% 1% 1%;
+	width: 100%;
+	height: auto;
+	padding: 1% 1% 1% 1%;
 }
 
 .project-content {
@@ -319,11 +315,14 @@ footer {
 }
 
 .project-img {
+	display: block;
 	width: 50%;
 	height: auto;
+	text-align: center;
+	left-margin: auto;
+	right-margin: auto;
+	margin: auto;
 }
-
-
 
 
 
