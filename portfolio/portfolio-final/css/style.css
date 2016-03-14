@@ -233,6 +233,7 @@ footer {
 	padding-left: 5%;
 }
 
+
 .bio-content {
 	/*display: inline-block;
 	float: right;
@@ -240,6 +241,15 @@ footer {
 	height: 360px;
 	text-align: left;
 	background-color: white;*/
+}
+
+span {
+	font-weight: bold;
+}
+
+span:hover {
+	font-weight: normal;
+	border: 1px solid black;
 }
 
 .resume-img {
@@ -323,6 +333,25 @@ footer {
 	right-margin: auto;
 	margin: auto;
 }
+
+.project-menu {
+	display: inline-block;
+	position: relative;
+	text-decoration: none;
+	margin:;
+	width: auto;
+	text-align:;
+	padding: 1% 1% 1% 1%;
+	border-radius: 20px;
+	border: 1px solid white;
+
+}
+
+
+
+
+
+
 
 
 
