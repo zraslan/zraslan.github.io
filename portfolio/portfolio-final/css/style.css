@@ -306,6 +306,10 @@ footer {
 	letter-spacing: 1.5px;
 }
 
+.sub-head-list {
+	padding-left: 2%;
+}
+
 .project-link {
 	position: relative;
 	display: inline-block;
