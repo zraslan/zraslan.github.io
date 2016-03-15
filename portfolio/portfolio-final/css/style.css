@@ -65,6 +65,7 @@ a:hover {
 	font-size: 200%;
 	padding-top: 2%;
 	padding-bottom: 5%;
+	line-height: 100%;
 }
 
 .index-navigation-link {
@@ -286,6 +287,7 @@ footer {
 	text-align: center;
 	padding-top: 2%;
 	padding-bottom: 1%;
+	line-height: 100%;
 }
 
 .resume-link {
