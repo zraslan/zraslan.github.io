@@ -334,7 +334,17 @@ footer {
 
 
 
+.project-subsection {
+	display: block;
+	padding-bottom: 4%;
+	font-size: 20px;
+	font-weight: bold;
+	padding-top: 10%;
+	padding-bottom: .5%;
+	line-height: 100%;
+	text-align: center;
 
+}
 
 .project-link {
 	position: relative;
@@ -378,9 +388,9 @@ footer {
 }
 
 .project-navigation-menu {
-	margin:;
+	margin: auto;
 	width: 40%;
-	text-align: left;
+	text-align: center;
 	padding: 1.5% 2.5% 1.5% 2.5%;
 	border-radius: 15px;
 	border: 2px solid #4dff4d;
