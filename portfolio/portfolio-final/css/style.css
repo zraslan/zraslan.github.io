@@ -359,6 +359,12 @@ footer {
 
 }
 
+.project-main-header {
+	text-align: center;
+	display: block;
+	padding-top: -10%;
+}
+
 .project-link {
 	position: relative;
 	display: inline-block;
@@ -375,6 +381,22 @@ footer {
 	display: block;
 	text-align: left;
 	background-color:;
+}
+
+.project-self-img {
+	display: block;
+	margin: auto;
+	width: 35%;
+	height: auto;
+	text-align: center;
+	left-margin: auto;
+	right-margin: auto;
+	border-radius: 20%;
+	padding-bottom:;
+}
+
+.project-divider {
+	padding-top: 5%;
 }
 
 .project-img {
