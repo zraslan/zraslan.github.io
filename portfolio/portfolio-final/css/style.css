@@ -12,10 +12,12 @@ body {
 strong {
 	margin-top: 20px;
 	font-weight: bold;
+	padding-top: 5%;
 }
 
 hr {
 	margin-bottom: 1%;
+	display: block;
 }
 
 p {
@@ -342,7 +344,41 @@ footer {
 	padding-left: 2%;
 }
 
+.computer-skills-sec {
 
+}
+
+.resume-computer-subsec-left {
+	position:;
+	display:;
+	float:;
+	width: auto;
+	text-align: left;
+}
+
+.resume-computer-subsec-subhead-left {
+	display:;
+	position:;
+	width: auto;
+	text-align: center;
+	padding-left: 5%;
+}
+
+.resume-computer-subsec-right {
+	position:;
+	display:;
+	float:;
+	width: auto;
+	text-align:;
+}
+
+.resume-computer-subsec-subhead-right {
+	display:;
+	position:;
+	width: auto;
+	text-align: center;
+	padding-left: 5%;
+}
 
 
 
