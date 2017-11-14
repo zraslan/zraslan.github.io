@@ -415,7 +415,10 @@ footer {
 .project-content {
 	position: relative;
 	display: block;
+	margin-left: 10%;
+	margin-right:10%;
 	text-align: left;
+	line-height: 25px;
 	background-color:;
 }
 
@@ -451,11 +454,13 @@ footer {
 	padding-top: 2%;
 	padding-bottom: 5%;
 	line-height: 100%;
+	text-align: center;
 }
 
 .project-navigation-link {
 	text-decoration: none;
 	color: green;
+	text-align: center;
 }
 
 .project-navigation-menu {
