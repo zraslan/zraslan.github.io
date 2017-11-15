@@ -449,7 +449,7 @@ footer {
 }
 
 .project-navigation-item {
-	display:block;
+	display: block;
 	font-size: 150%;
 	padding-top: 2%;
 	padding-bottom: 5%;
@@ -457,10 +457,28 @@ footer {
 	text-align: center;
 }
 
+.project-navigation-item-body {
+	display: block;
+	font-size: 150%;
+	padding-top: 2%;
+	padding-bottom: 3%;
+	padding-left: 10%;
+	padding-right: 10%;
+	line-height: 5%;
+	text-align: center;
+}
+
 .project-navigation-link {
 	text-decoration: none;
 	color: green;
 	text-align: center;
+}
+
+.project-navigation-link-body {
+	text-decoration: none;
+	color: green;
+	text-align: center;
+	width: auto;
 }
 
 .project-navigation-menu {
@@ -471,6 +489,16 @@ footer {
 	border-radius: 15px;
 	/*border: 2px solid #4dff4d;
 	background-color: #001900;*/
+}
+
+.project-navigation-menu-body {
+	margin:;
+	width: auto;
+	text-align: center;
+	padding: 1.5% 2.5% 1.5% 2.5%;
+	border-radius: 15px;
+	border: 2px solid #4dff4d;
+	background-color: #001900;
 }
 
 
