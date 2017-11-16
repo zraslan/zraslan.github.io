@@ -303,7 +303,7 @@ footer {
 	font-weight: bold;
 	text-align: center;
 	padding-top: 1%;
-	padding-bottom: 1%;
+	padding-bottom: 7%;
 	line-height: 100%;
 }
 
@@ -320,12 +320,19 @@ footer {
 	font-weight: 900;
 }
 
+.resume-h2 {
+	display: block;
+	text-align: center;
+	padding-bottom: 7%;
+}
+
 .resume-short {
 	display: block;
 	margin: auto;
 	text-decoration: underline;
 	color: #7F7F7F;
 	padding-top:;
+	text-align: center;
 }
 
 .resume-link:hover {
@@ -446,6 +453,18 @@ footer {
 	left-margin: auto;
 	right-margin: auto;
 	margin: auto;
+}
+
+.project-header-img {
+	display: block;
+	width: 50%;
+	height: auto;
+	text-align: center;
+	left-margin: auto;
+	right-margin: auto;
+	margin: auto;
+	border-radius: 25px;
+	border: 5px solid #001900;
 }
 
 .project-navigation-item {
